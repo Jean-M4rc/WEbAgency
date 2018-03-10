@@ -1,0 +1,292 @@
+@media only screen and (max-width: 750px){
+	/*Tous les médias avec une largeur affiché de 750px -> tous les mobiles)*/
+	
+	h1{
+		font-size:2.5em;
+	}
+	hr{
+  		width: 70px;
+  	}
+  	section{
+  		margin:auto;
+  		padding:auto;
+  	}
+				/*			NAVBAR			*/
+				/*							*/
+	#espace1, #logo{
+		display:none;
+	}
+	#navbar1{
+		width: 100%;
+	}
+	nav a:hover{
+		border:none;
+		cursor:pointer;
+	}
+
+				/*			SLIDER			*/
+				/*							*/
+	.content{
+		display:none;
+	}
+	.wrapper{
+		background-color:#015167;
+		height:350px;
+		margin:auto;
+	}
+	#annoncebutton{
+		display:none;
+	}
+	#article2 a, #article1 a{
+		display:none;
+	}
+	#annonce1{
+		width: 85%;
+		top: 50px;
+		left:7%;
+		margin:auto;
+		color: white;
+		align-items:center;
+		text-shadow: 2px 2px 2px black;
+	}
+	#annonce1 br{
+		display: none;
+	}
+	#annonce1 h1, p{
+		text-align: center;
+	}
+						/*			SERVICES			*/
+						/*								*/
+	#Services{
+	margin-bottom:120px;
+	}
+	#servicesimg{
+		display:none;
+	}
+	#serviceslist{
+		width:100%;
+	}
+	.textserv{
+		width:100%;
+	}
+	.icoserv{
+		display: none;
+	}
+
+						/*			PROJETS				*/
+						/*								*/
+	#projetsnav{
+		width: 100%;
+		margin-top:50px;
+	}
+	#projetsblanc1,#projetsblanc2{
+		display:none;
+	}
+	#projetsnav label{/* menu vertical*/
+		width:100%;
+		display:block;
+		margin :0px;
+		justify-content:center;
+	}
+	#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9{
+		margin: 10px 2px 0px 0px;
+	}
+	.description{/* fixe*/
+		margin-top:130px;
+		padding-left: 5px;
+		text-align:left;
+		background-color: black;
+		opacity: 0.7;
+		color:white;
+		font-family:'robotoregular';
+		padding-bottom:50px;
+	}
+	#i1,#i2,#i3,#i4{
+		display: none;
+	}
+	#allworks:checked ~ #l1{
+		border: none;
+		background-color:#4F5361;
+	}
+	#creative:checked ~ #l2{
+		border: none;
+		background-color:#4F5361;
+	}
+	#corporate:checked ~ #l3{
+		border: none;
+		background-color:#4F5361;
+	}
+	#portfolio:checked ~ #l4{
+		border: none;
+		background-color:#4F5361;
+	}
+						/*			CONTACTS				*/
+						/*									*/
+	#map iframe{
+		opacity:0;
+	}
+	#voilebleu{
+		display:none;
+	}
+	#formulaire{
+		position: relative;
+		width: auto;
+		height: 80%;
+		top: -750px;
+		left: 0;
+		background-color: rgb(243,243,243);
+		border-radius: 4px;
+		padding: 15px;
+		margin-bottom: -650px;
+		z-index:3;
+	}
+	#mapcache{
+		display: block;
+		height: 35px;
+		background-color:#32A0C1;
+		text-decoration: none;
+		color:white;
+	}
+	#mapcache p{
+		padding-top: 5px;
+	}
+	#send{
+	background-color:#32A0C1;
+	border: none;
+	text-shadow: 1px 1px black;
+	}
+	#send:hover{
+	border: none;
+	background-color:#32A0C1;
+	}
+}
+@media only screen and (min-width: 751px) and (max-width: 1024px){
+	/*Tous les médias avec une largeur affiché 
+	contenu entre 751px et 1024px => les tablettes et netbook)*/
+  	section{
+  		margin:auto;
+  		padding:auto;
+  	}
+				/*			NAVBAR			*/
+				/*							*/
+	#espace1{
+		display:none;
+	}
+	#navbar1{
+		width: 60%;
+	}
+	nav a:hover{
+		cursor:pointer;
+		border-top: none;
+	}
+
+				/*			SLIDER			*/
+				/*							*/
+	.wrapper{
+		height:450px;
+		margin:auto;
+	}
+	#annoncebutton:hover{
+		border:2px solid black;
+		cursor:pointer;
+	}
+	#annonce1{
+		width: 70%;
+		top: 150px;
+		left:4%;
+		margin:auto;
+		color: white;
+		align-items:center;
+		text-shadow: 2px 2px 2px black;
+	}
+	#annonce1 h1, p{
+		text-align: center;
+	}
+	#annonce1 br{
+		display:none;
+	}
+	#annoncebutton{
+    	left : 35%;
+	}
+						/*			SERVICES			*/
+						/*								*/
+	#Services{
+	margin-bottom:30px;
+	}
+	#servicesimg{
+		display:none;
+	}
+	#serviceslist{
+		width:100%;
+	}
+	.textserv{
+		width:70%;
+	}
+	
+
+						/*			PROJETS				*/
+						/*								*/
+	#projetsnav{
+		width: 100%;
+		margin-top:50px;
+		font-size: ;
+	}
+	#projetsblanc1{
+		width:20%;
+	}
+
+	#projetsblanc2{
+		display:none;
+	}
+	
+	#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9{
+		margin: 10px 2px 0px 7%;
+	}
+	.description{
+		margin-top:130px;
+		padding-left: 5px;
+		text-align:left;
+		background-color: black;
+		opacity: 0.7;
+		color:white;
+		font-family:'robotoregular';
+		padding-bottom:50px;
+	}
+	#i1,#i2,#i3,#i4{
+		display: none;
+	}
+	#allworks:checked ~ #l1{
+		border: none;
+		background-color:#4F5361;
+	}
+	#creative:checked ~ #l2{
+		border: none;
+		background-color:#4F5361;
+	}
+	#corporate:checked ~ #l3{
+		border: none;
+		background-color:#4F5361;
+	}
+	#portfolio:checked ~ #l4{
+		border: none;
+		background-color:#4F5361;
+	}
+						/*			CONTACTS				*/
+						/*									*/
+	#formulaire{
+		width:35%;
+		left:60%;
+		height:70%;
+	}
+	textarea{
+	height: 100px;
+	}
+	#send{
+	background-color:#3A5CC2;
+	border: none;
+	text-shadow: 1px 1px black;
+	}
+	#send:hover{
+	border: none;
+	}
+}

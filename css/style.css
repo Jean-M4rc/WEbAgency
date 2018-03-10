@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/Roboto-Bold-webfont.eot');
+    src: url('../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/Roboto-Medium-webfont.eot');
+    src: url('../fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Medium-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+  font-family:'robotoregular';
+}
+h1{
+  font-size: 2.7em;
+  font-family:'robotobold';
+  text-align: left;
+  line-height: 0.9em;
+}
+h2{
+  font-size: 2.5em;
+  font-family:'robotobold';
+  text-align: center;
+}
+h3{
+  font-size: 1.5em;
+  font-family:'robotomedium';
+  text-align: left;
+}
+h4{
+  font-size: 1.2em;
+  font-family:'robotomedium';
+  text-align: left;
+  margin-bottom: 0px;
+}
+h5{
+  font-family:'robotomedium';
+  font-size:1em;
+  margin-bottom:-15px;
+}
+span{
+  color: #32A0C1;/*bleu webagency*/
+  font-family:'robotobold';
+}  
+strong{
+  font-weight: bold;
+}
+hr{
+	display:inline-block;
+  width: 150px;
+  color:#848C90; /*gris*/
+  text-align:center;
+}
+.rond{
+  position:relative;
+  color:#32A0C1;/* bleu agency*/
+}
+.rondb{
+    top:-3px;
+}
+.rondp{
+  top: 23px;
+  left: 23px;
+}
+.bandeau{
+  text-align: center;
+  margin-top:-30px;
+}
+#mapcache{
+  display:none;
+}
